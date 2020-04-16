@@ -490,48 +490,6 @@ int main()
     d1=(float)(end-start)/CLOCKS_PER_SEC;
     printf("\t   %.3f ", d1);
 
-    memcpy(a1, arr1, sizeof(a1));
-    start=clock();
-    quicksortlast(a1, 0, 999);
-    end=clock();
-    d1=(float)(end-start)/CLOCKS_PER_SEC;
-    printf("        %.3f ", d1);
-    
-    memcpy(a2, arr2, sizeof(a2));
-    start=clock();
-    quicksortlast(a2, 0, 999);
-    end=clock();
-    d1=(float)(end-start)/CLOCKS_PER_SEC;
-    printf("\t   %.3f ", d1);
-    
-    memcpy(a3, arr3, sizeof(a3));
-    start=clock();
-    quicksortlast(a3, 0, 9999);
-    end=clock();
-    d1=(float)(end-start)/CLOCKS_PER_SEC;
-    printf("\t%.3f ", d1);
-    
-    memcpy(a4, arr4, sizeof(a4));
-    start=clock();
-    quicksortlast(a4, 0, 9999);
-    end=clock();
-    d1=(float)(end-start)/CLOCKS_PER_SEC;
-    printf("\t      %.3f ", d1);
-    
-    memcpy(a5, arr5, sizeof(a5));
-    start=clock();
-    quicksortlast(a5, 0, 99999);
-    end=clock();
-    d1=(float)(end-start)/CLOCKS_PER_SEC;
-    printf("\t    %.3f ", d1);
-
-    memcpy(a6, arr6, sizeof(a6));
-    start=clock();
-    quicksortlast(a6, 0, 99999);
-    end=clock();
-    d1=(float)(end-start)/CLOCKS_PER_SEC;
-    printf("\t   %.3f ", d1);
-
     
     printf("\nQuick2");
     memcpy(a1, arr1, sizeof(a1));
